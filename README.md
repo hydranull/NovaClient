@@ -65,8 +65,6 @@ Nova ist ein kostenloser Open-Source-Client für Minecraft (Fabric) mit eigener,
 nebeneinander, Vorschau und Einstellungen für fast jedes Modul, die Welt bleibt hinter dem Menü sichtbar.
 
 - **Über 100 Module** in Combat, Misc, Donut, Base Finding, Render, Visuals und Nova
-- **Hyper Tools**: Schwerter werden zu Laserschwertern in Seltenheitsfarben, mit wechselnden Schlag-Moves und drei
-  Inspect-Animationen (Standardtaste <kbd>G</kbd>)
 - **HUD-Editor**, Profile, Makros, eigene Schriftarten und der Offline-Assistent **Nova AI**
 
 Manche Module (z.B. Combat oder Xray) sind nicht auf jedem Server erlaubt – vorher die Serverregeln lesen.
