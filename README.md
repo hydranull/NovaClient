@@ -17,8 +17,6 @@ Nova is a utility client for Minecraft (Fabric) with its own clean, round GUI. A
 every module has a live preview and its own settings, and the world stays visible behind the menu.
 
 - **100+ modules** in Combat, Misc, Donut, Base Finding, Render, Visuals and Nova
-- **Hyper Tools**: swords become lightsabers in rarity colors, with changing swing moves and three inspect animations
-  (default key: <kbd>G</kbd>)
 - **Render & visuals**: ESPs, Xray, Sky VFX, Motion Blur, Glowing Outlines, Jump Circles, Kill Effects, Fireflies and more
 - **HUD editor**, profiles, macros, hotkey list, custom fonts
 - **Nova Assistant**: an offline helper that answers questions about the modules (English, German, Turkish)
