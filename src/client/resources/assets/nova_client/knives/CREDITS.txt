@@ -1,0 +1,6 @@
+"Shadow Daggers" 3D model by Reysoft (https://sketchfab.com/zFabby)
+Source: https://sketchfab.com/3d-models/shadow-daggers-d1317f26ade04b9782c921b14f2839e8
+License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+
+Changes: converted from glTF to NovaClient's mesh format (shadow_daggers.nkm), recentred on the grip and scaled;
+texture re-baked (base colour x ambient occlusion, darker metal tint, lavender edges) and downscaled to 1024 px.

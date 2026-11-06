@@ -1,0 +1,9 @@
+{
+  "antivanish.ring": {
+    "sounds": [
+      {
+        "name": "minecraft:ambient/cave/cave2"
+      }
+    ]
+  }
+}

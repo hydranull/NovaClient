@@ -1,0 +1,1207 @@
+{
+ "AutoTotem": {
+  "aliases": [
+   "auto totem",
+   "totem"
+  ],
+  "kw": "totem offhand pop survive death totem zweithand ueberleben totem ikinci el hayatta kalma",
+  "en": "Puts a new totem in your off-hand right after one pops, so you are protected again at once.",
+  "de": "Legt dir sofort ein neues Totem in die Zweithand, nachdem eins verbraucht wurde – du bist gleich wieder geschützt.",
+  "tr": "Bir totem patladıktan hemen sonra ikinci eline yenisini koyar, böylece hemen tekrar korunursun."
+ },
+ "AutoInvTotem": {
+  "aliases": [
+   "auto inv totem",
+   "inventory totem",
+   "inventar totem"
+  ],
+  "kw": "totem inventory offhand inventar zweithand envanter totem",
+  "en": "Moves a totem into your off-hand while your inventory is open.",
+  "de": "Schiebt ein Totem in deine Zweithand, während dein Inventar offen ist.",
+  "tr": "Envanterin açıkken ikinci eline bir totem taşır."
+ },
+ "HoverTotem": {
+  "aliases": [
+   "hover totem"
+  ],
+  "kw": "totem hover hotbar mouse maus totem fare",
+  "en": "Hover over a totem in your inventory and it is swapped into your hotbar.",
+  "de": "Fahr im Inventar mit der Maus über ein Totem und es wird in deine Hotbar getauscht.",
+  "tr": "Envanterde farenle bir totemin üzerine gel, hızlı çubuğuna (hotbar) taşınır."
+ },
+ "Auto Double Hand": {
+  "aliases": [
+   "double hand",
+   "auto double hand",
+   "doublehand"
+  ],
+  "kw": "totem hotbar refill slots nachfuellen totem doldurma",
+  "en": "Instantly refills hotbar slots whose totems were used up.",
+  "de": "Füllt leer gewordene Totem-Plätze in deiner Hotbar sofort wieder auf.",
+  "tr": "Hızlı çubukta boşalan totem yuvalarını anında yeniden doldurur."
+ },
+ "Reach": {
+  "aliases": [
+   "reach",
+   "reichweite",
+   "menzil"
+  ],
+  "kw": "reach distance hit range weiter schlagen reichweite menzil uzak vurma",
+  "en": "Lets you hit targets from further away than normal.",
+  "de": "Lässt dich Ziele aus größerer Entfernung treffen als normal.",
+  "tr": "Hedeflere normalden daha uzaktan vurmanı sağlar."
+ },
+ "LegitCrystalMacro": {
+  "aliases": [
+   "crystal macro",
+   "legit crystal",
+   "crystal",
+   "kristall makro",
+   "kristal makro"
+  ],
+  "kw": "crystal end crystal pvp place break kristall kristal",
+  "en": "Hold right-click to place and break end crystals in quick succession.",
+  "de": "Halte Rechtsklick gedrückt, um End-Kristalle schnell zu setzen und zu zerstören.",
+  "tr": "Sağ tıkı basılı tut, End kristallerini hızlıca koyup patlatır."
+ },
+ "AnchorMacro": {
+  "aliases": [
+   "anchor macro",
+   "anchor",
+   "anker",
+   "respawn anchor",
+   "çapa"
+  ],
+  "kw": "anchor respawn glowstone explode anker explodieren capa patlatma",
+  "en": "Hold right-click to place, charge and detonate respawn anchors.",
+  "de": "Halte Rechtsklick, um Seelenanker zu setzen, aufzuladen und zu zünden.",
+  "tr": "Sağ tıkı basılı tut; yeniden doğma çapasını koyar, şarj eder ve patlatır."
+ },
+ "Key Pearl": {
+  "aliases": [
+   "key pearl",
+   "pearl key",
+   "perle",
+   "inci"
+  ],
+  "kw": "ender pearl throw key werfen perle taste inci firlatma tus",
+  "en": "Throws an ender pearl with a single key press.",
+  "de": "Wirft mit einem Tastendruck eine Enderperle.",
+  "tr": "Tek bir tuşla ender incisi fırlatır."
+ },
+ "LungeMacro": {
+  "aliases": [
+   "lunge macro",
+   "lunge",
+   "speer",
+   "mızrak"
+  ],
+  "kw": "spear lunge dash speer stoss mizrak atilma",
+  "en": "Lunges forward with your spear on a key press.",
+  "de": "Stößt mit deinem Speer auf Tastendruck nach vorne.",
+  "tr": "Bir tuşla mızrağınla ileri atılırsın."
+ },
+ "BowAimbot": {
+  "aliases": [
+   "bow aimbot",
+   "aimbot",
+   "bogen",
+   "yay"
+  ],
+  "kw": "bow aim arrow target bogen zielen pfeil yay nisan ok",
+  "en": "Aims your bow at the target closest to your crosshair.",
+  "de": "Zielt mit deinem Bogen auf das Ziel, das deinem Fadenkreuz am nächsten ist.",
+  "tr": "Yayını nişangâhına en yakın hedefe doğrultur."
+ },
+ "Trigger Bot": {
+  "aliases": [
+   "trigger bot",
+   "triggerbot",
+   "trigger"
+  ],
+  "kw": "attack crosshair automatic hit angreifen automatisch fadenkreuz saldiri otomatik",
+  "en": "Attacks as soon as your crosshair is on a player.",
+  "de": "Schlägt automatisch zu, sobald dein Fadenkreuz auf einem Spieler ist.",
+  "tr": "Nişangâhın bir oyuncunun üstüne gelir gelmez saldırır."
+ },
+ "KillAura": {
+  "aliases": [
+   "kill aura",
+   "killaura",
+   "aura"
+  ],
+  "kw": "attack automatic targets range pvp angreifen automatisch ziele otomatik saldiri",
+  "en": "Automatically attacks the best target in range.",
+  "de": "Greift automatisch das beste Ziel in Reichweite an.",
+  "tr": "Menzildeki en iyi hedefe otomatik saldırır."
+ },
+ "Shield Breaker": {
+  "aliases": [
+   "shield breaker",
+   "schild",
+   "kalkan"
+  ],
+  "kw": "shield axe disable block schild axt kalkan balta",
+  "en": "Switches to an axe to disable an opponent's raised shield.",
+  "de": "Wechselt zur Axt, um den erhobenen Schild des Gegners auszuschalten.",
+  "tr": "Rakibin kaldırdığı kalkanı devre dışı bırakmak için baltaya geçer."
+ },
+ "Hitboxes": {
+  "aliases": [
+   "hitboxes",
+   "hitbox"
+  ],
+  "kw": "hitbox box eye line view direction trefferzone blickrichtung isabet kutusu",
+  "en": "Shows player hitboxes with their eye line and view direction.",
+  "de": "Zeigt die Hitboxen von Spielern mit Augenhöhe und Blickrichtung.",
+  "tr": "Oyuncuların isabet kutularını, göz hizasını ve bakış yönünü gösterir."
+ },
+ "Macros": {
+  "aliases": [
+   "macros",
+   "macro",
+   "makro",
+   "makros"
+  ],
+  "kw": "macro sequence keys messages wait automation makro ablauf tasten nachrichten otomasyon",
+  "en": "Runs your own sequences of key presses, chat messages and waits.",
+  "de": "Führt deine eigenen Abläufe aus Tastendrücken, Chat-Nachrichten und Wartezeiten aus.",
+  "tr": "Kendi tuş, sohbet mesajı ve bekleme dizilerini çalıştırır."
+ },
+ "AutoTool": {
+  "aliases": [
+   "auto tool",
+   "autotool",
+   "werkzeug"
+  ],
+  "kw": "tool mining fastest pickaxe switch werkzeug abbauen alet kazma",
+  "en": "Switches to the fastest tool while you mine.",
+  "de": "Wechselt beim Abbauen automatisch zum schnellsten Werkzeug.",
+  "tr": "Kazarken otomatik olarak en hızlı alete geçer."
+ },
+ "Fast Place": {
+  "aliases": [
+   "fast place",
+   "fastplace",
+   "schnell platzieren"
+  ],
+  "kw": "place blocks fast delay bauen schnell blocke hizli blok koyma",
+  "en": "Places blocks without the usual delay.",
+  "de": "Setzt Blöcke ohne die normale Verzögerung.",
+  "tr": "Blokları normal gecikme olmadan koyar."
+ },
+ "Fast XP": {
+  "aliases": [
+   "fast xp",
+   "fastxp",
+   "xp"
+  ],
+  "kw": "xp experience bottles mending erfahrung flaschen tecrube sise",
+  "en": "Throws experience bottles much faster.",
+  "de": "Wirft Erfahrungsfläschchen viel schneller.",
+  "tr": "Tecrübe şişelerini çok daha hızlı atar."
+ },
+ "Freecam": {
+  "aliases": [
+   "freecam",
+   "free cam",
+   "freie kamera",
+   "serbest kamera"
+  ],
+  "kw": "camera fly look around spectate kamera fliegen umsehen kamera ucma",
+  "en": "Lets your camera fly freely; you can even mine or build where the camera is.",
+  "de": "Lässt deine Kamera frei fliegen – du kannst sogar dort abbauen oder bauen, wo die Kamera ist.",
+  "tr": "Kameran serbestçe uçar; kameranın olduğu yerde kazabilir veya inşa edebilirsin."
+ },
+ "Freelook": {
+  "aliases": [
+   "freelook",
+   "free look"
+  ],
+  "kw": "camera turn look around rotate kamera umschauen drehen etrafa bakma",
+  "en": "Turn your camera without turning your player.",
+  "de": "Dreh die Kamera, ohne dass sich deine Spielfigur mitdreht.",
+  "tr": "Karakterini döndürmeden kamerayı çevir."
+ },
+ "Boat Fly": {
+  "aliases": [
+   "boat fly",
+   "boatfly",
+   "boot",
+   "tekne"
+  ],
+  "kw": "boat fly vehicle horse boot fliegen fahrzeug tekne ucma arac",
+  "en": "Makes boats and other vehicles fly.",
+  "de": "Lässt Boote und andere Fahrzeuge fliegen.",
+  "tr": "Teknelerin ve diğer araçların uçmasını sağlar."
+ },
+ "Stream Protect": {
+  "aliases": [
+   "stream protect",
+   "streamer"
+  ],
+  "kw": "stream hide items recording streamer verstecken aufnahme yayin gizleme",
+  "en": "Hides your items while you stream.",
+  "de": "Versteckt deine Items, während du streamst.",
+  "tr": "Yayın yaparken eşyalarını gizler."
+ },
+ "Sprint": {
+  "aliases": [
+   "sprint",
+   "auto sprint",
+   "rennen",
+   "koşma"
+  ],
+  "kw": "sprint run automatic rennen laufen kosma otomatik",
+  "en": "Sprints automatically whenever you walk forward.",
+  "de": "Sprintet automatisch, sobald du nach vorne läufst.",
+  "tr": "İleri yürüdüğünde otomatik olarak koşar."
+ },
+ "Auto Walk": {
+  "aliases": [
+   "auto walk",
+   "autowalk",
+   "laufen",
+   "yürüme"
+  ],
+  "kw": "walk forward afk travel laufen reisen yurume afk",
+  "en": "Walks forward without you holding a key.",
+  "de": "Läuft geradeaus, ohne dass du eine Taste hältst.",
+  "tr": "Tuşa basmadan ileri yürür."
+ },
+ "Flight": {
+  "aliases": [
+   "flight",
+   "fly",
+   "fliegen",
+   "uçma",
+   "ucus"
+  ],
+  "kw": "fly flight creative fliegen flug ucma ucus",
+  "en": "Lets you fly like in creative mode.",
+  "de": "Lässt dich fliegen wie im Kreativmodus.",
+  "tr": "Yaratıcı moddaki gibi uçmanı sağlar."
+ },
+ "Auto Reconnect": {
+  "aliases": [
+   "auto reconnect",
+   "reconnect",
+   "wiederverbinden"
+  ],
+  "kw": "reconnect kick rejoin server disconnect neu verbinden yeniden baglanma",
+  "en": "Rejoins the server automatically after you get kicked.",
+  "de": "Verbindet dich nach einem Kick automatisch wieder mit dem Server.",
+  "tr": "Atıldıktan sonra sunucuya otomatik olarak yeniden bağlanır."
+ },
+ "Spotify": {
+  "aliases": [
+   "spotify",
+   "musik",
+   "müzik",
+   "music"
+  ],
+  "kw": "music song lyrics player musik lied songtext muzik sarki sozleri",
+  "en": "Shows what is playing on Spotify with lyrics and a full player.",
+  "de": "Zeigt, was auf Spotify läuft – mit Songtext und komplettem Player.",
+  "tr": "Spotify'da çalanı şarkı sözleri ve tam bir oynatıcıyla gösterir."
+ },
+ "NoFall": {
+  "aliases": [
+   "nofall",
+   "no fall",
+   "fallschaden",
+   "düşme"
+  ],
+  "kw": "fall damage prevent fallschaden dusme hasari",
+  "en": "Prevents fall damage.",
+  "de": "Verhindert Fallschaden.",
+  "tr": "Düşme hasarını engeller."
+ },
+ "FPS Boost": {
+  "aliases": [
+   "fps boost",
+   "fps",
+   "performance",
+   "leistung",
+   "performans"
+  ],
+  "kw": "fps lag performance faster leistung ruckeln performans kasma",
+  "en": "Turns down costly settings so you get more FPS.",
+  "de": "Dreht teure Einstellungen herunter, damit du mehr FPS bekommst.",
+  "tr": "Daha fazla FPS için ağır ayarları düşürür."
+ },
+ "Player Detector": {
+  "aliases": [
+   "player detector",
+   "spieler detektor",
+   "oyuncu dedektörü"
+  ],
+  "kw": "player near disconnect safety spieler naehe trennen oyuncu yakin cikis",
+  "en": "Disconnects you when another player comes close.",
+  "de": "Trennt die Verbindung, sobald ein anderer Spieler in deine Nähe kommt.",
+  "tr": "Başka bir oyuncu yaklaştığında bağlantını keser."
+ },
+ "Loot Preview": {
+  "aliases": [
+   "loot preview",
+   "shulker preview"
+  ],
+  "kw": "shulker chest contents preview tooltip inhalt kiste icerik sandik",
+  "en": "Shows what is inside shulker boxes and chests.",
+  "de": "Zeigt, was in Shulker-Kisten und Truhen ist.",
+  "tr": "Shulker kutularının ve sandıkların içinde ne olduğunu gösterir."
+ },
+ "Assistant": {
+  "aliases": [
+   "assistant",
+   "assistent",
+   "asistan",
+   "nova ai",
+   "nova ki"
+  ],
+  "kw": "chat commands ai help assistant befehle hilfe komut yardim",
+  "en": "Control Nova with chat commands that start with a dot – and ask me anything about the modules.",
+  "de": "Steuere Nova mit Chat-Befehlen, die mit einem Punkt beginnen – und frag mich alles über die Module.",
+  "tr": "Nova'yı nokta ile başlayan sohbet komutlarıyla kontrol et – modüller hakkında bana her şeyi sorabilirsin."
+ },
+ "NameProtect": {
+  "aliases": [
+   "name protect",
+   "nameprotect"
+  ],
+  "kw": "name hide skin protect nick name verstecken isim gizleme",
+  "en": "Shows a custom name and skin instead of yours.",
+  "de": "Zeigt einen eigenen Namen und Skin statt deinem.",
+  "tr": "Seninki yerine özel bir isim ve skin gösterir."
+ },
+ "Trident Util": {
+  "aliases": [
+   "trident util",
+   "trident",
+   "dreizack",
+   "üç dişli mızrak"
+  ],
+  "kw": "trident riptide rain water dreizack sog regen trident yagmur",
+  "en": "Use riptide without water or rain, and charge your trident faster.",
+  "de": "Sog ohne Wasser oder Regen nutzen und den Dreizack schneller aufladen.",
+  "tr": "Su veya yağmur olmadan riptide kullan ve üç dişli mızrağı daha hızlı şarj et."
+ },
+ "Coord Snapper": {
+  "aliases": [
+   "coord snapper",
+   "coords",
+   "koordinaten"
+  ],
+  "kw": "coordinates copy look block koordinaten kopieren koordinat kopyalama",
+  "en": "Copies the coordinates of the block you are looking at.",
+  "de": "Kopiert die Koordinaten des Blocks, auf den du schaust.",
+  "tr": "Baktığın bloğun koordinatlarını kopyalar."
+ },
+ "Chat Macro": {
+  "aliases": [
+   "chat macro"
+  ],
+  "kw": "chat message command key nachricht befehl taste mesaj komut tus",
+  "en": "Sends a chat message or command when you press a key.",
+  "de": "Sendet auf Tastendruck eine Chat-Nachricht oder einen Befehl.",
+  "tr": "Bir tuşa bastığında sohbet mesajı ya da komut gönderir."
+ },
+ "Discord Presence": {
+  "aliases": [
+   "discord presence",
+   "discord",
+   "rpc"
+  ],
+  "kw": "discord status rich presence discord durum",
+  "en": "Shows Nova Client in your Discord status.",
+  "de": "Zeigt Nova Client in deinem Discord-Status.",
+  "tr": "Discord durumunda Nova Client'ı gösterir."
+ },
+ "Auto Chunk Reload": {
+  "aliases": [
+   "auto chunk reload",
+   "chunk reload"
+  ],
+  "kw": "chunk reload dig bedrock donut chunks neu laden graben chunk yenileme kazma",
+  "en": "Reloads chunks while you dig down to bedrock level.",
+  "de": "Lädt Chunks neu, während du bis zur Bedrock-Ebene gräbst.",
+  "tr": "Ana kaya seviyesine kadar kazarken chunk'ları yeniden yükler."
+ },
+ "AuctionSniper": {
+  "aliases": [
+   "auction sniper",
+   "auctionsniper",
+   "auktion",
+   "müzayede",
+   "ah"
+  ],
+  "kw": "auction ah buy cheap price snipe auktion kaufen billig preis muzayede satin alma ucuz fiyat",
+  "en": "Buys auction house offers below your maximum price.",
+  "de": "Kauft Angebote im Auktionshaus, die unter deinem Höchstpreis liegen.",
+  "tr": "Müzayede evindeki, belirlediğin azami fiyatın altındaki teklifleri satın alır."
+ },
+ "Auto Sell": {
+  "aliases": [
+   "auto sell",
+   "autosell",
+   "verkaufen",
+   "satma"
+  ],
+  "kw": "sell items money /sell verkaufen geld satma para",
+  "en": "Sells matching items through /sell automatically.",
+  "de": "Verkauft passende Items automatisch über /sell.",
+  "tr": "Eşleşen eşyaları /sell ile otomatik olarak satar."
+ },
+ "Spawner Protect": {
+  "aliases": [
+   "spawner protect",
+   "spawner schutz"
+  ],
+  "kw": "spawner protect secure player near spawner schutz sichern koruma",
+  "en": "Secures your spawners when someone comes near.",
+  "de": "Sichert deine Spawner, wenn jemand in die Nähe kommt.",
+  "tr": "Biri yaklaştığında spawner'larını güvene alır."
+ },
+ "Anti Vanish": {
+  "aliases": [
+   "anti vanish",
+   "antivanish",
+   "vanish",
+   "vanish detector"
+  ],
+  "kw": "vanish staff admin moderator hidden invisible detect yetkili gizli gorunmez teammitglied unsichtbar versteckt",
+  "en": "Detects staff members and players who are in vanish (invisible to the player list) and tells you about them.",
+  "de": "Erkennt Teammitglieder und Spieler, die im Vanish sind (in der Spielerliste unsichtbar), und sagt dir Bescheid.",
+  "tr": "Vanish modundaki (oyuncu listesinde görünmeyen) yetkilileri ve oyuncuları tespit eder ve sana haber verir."
+ },
+ "Fake Media": {
+  "aliases": [
+   "fake media",
+   "media badge"
+  ],
+  "kw": "media badge youtuber name rank abzeichen rozet medya",
+  "en": "Shows the media badge next to your name, only on your screen.",
+  "de": "Zeigt das Media-Abzeichen neben deinem Namen – nur auf deinem Bildschirm.",
+  "tr": "Adının yanında medya rozetini gösterir – sadece senin ekranında."
+ },
+ "TpaHere Macro": {
+  "aliases": [
+   "tpahere macro",
+   "tpahere",
+   "tpa"
+  ],
+  "kw": "tpa tpahere teleport request player teleportieren anfrage isinlanma istek",
+  "en": "Sends /tpahere to a player again and again.",
+  "de": "Schickt einem Spieler immer wieder /tpahere.",
+  "tr": "Bir oyuncuya tekrar tekrar /tpahere gönderir."
+ },
+ "Fake Stats": {
+  "aliases": [
+   "fake stats",
+   "scoreboard",
+   "stats"
+  ],
+  "kw": "scoreboard stats money style sidebar punkte statistik skor tablosu",
+  "en": "Restyles the scoreboard with your own stats – only on your screen.",
+  "de": "Gestaltet das Scoreboard mit eigenen Werten neu – nur auf deinem Bildschirm.",
+  "tr": "Skor tablosunu kendi değerlerinle yeniden tasarlar – sadece senin ekranında."
+ },
+ "Region Map": {
+  "aliases": [
+   "region map",
+   "regions",
+   "regionen",
+   "bölge haritası"
+  ],
+  "kw": "region map server number karte regionen harita bolge sunucu",
+  "en": "A map of all regions and their server numbers.",
+  "de": "Eine Karte aller Regionen mit ihren Servernummern.",
+  "tr": "Tüm bölgelerin ve sunucu numaralarının haritası."
+ },
+ "Sus Chunk Finder": {
+  "aliases": [
+   "sus chunk finder",
+   "sus chunk",
+   "amethyst chunks"
+  ],
+  "kw": "base find amethyst grown old chunks basis finden alt base bulma eski",
+  "en": "Flags chunks where amethyst has been growing for a long time – a sign that players spent time there.",
+  "de": "Markiert Chunks, in denen Amethyst lange gewachsen ist – ein Zeichen, dass Spieler dort Zeit verbracht haben.",
+  "tr": "Ametistin uzun süredir büyüdüğü chunk'ları işaretler – oyuncuların orada vakit geçirdiğinin işareti."
+ },
+ "HoleESP": {
+  "aliases": [
+   "hole esp",
+   "holeesp",
+   "löcher",
+   "delik"
+  ],
+  "kw": "holes shafts 1x1 1x3 base tunnel loecher schacht delik kuyu",
+  "en": "Finds 1x1 and 1x3 vertical shafts.",
+  "de": "Findet senkrechte 1x1- und 1x3-Schächte.",
+  "tr": "1x1 ve 1x3 dikey kuyuları bulur."
+ },
+ "AdvancedStashFinder": {
+  "aliases": [
+   "advanced stash finder",
+   "stash finder",
+   "stash"
+  ],
+  "kw": "stash chests containers base storage kisten lager zula sandik depo",
+  "en": "A storage ESP that alerts you to chunks full of containers.",
+  "de": "Ein Lager-ESP, das dich auf Chunks voller Behälter hinweist.",
+  "tr": "Kaplarla dolu chunk'lar için seni uyaran bir depo ESP'si."
+ },
+ "Tunnel Base Finder": {
+  "aliases": [
+   "tunnel base finder",
+   "tunnel",
+   "tünel"
+  ],
+  "kw": "tunnel bedrock dig automatic base tunnel graben automatisch tunel kazma",
+  "en": "Digs a tunnel just above bedrock by itself to find bases.",
+  "de": "Gräbt von selbst einen Tunnel knapp über dem Bedrock, um Basen zu finden.",
+  "tr": "Üsleri bulmak için ana kayanın hemen üstünde kendi kendine tünel kazar."
+ },
+ "Seed Finder": {
+  "aliases": [
+   "seed finder",
+   "seed"
+  ],
+  "kw": "seed world find seed welt finden tohum dunya",
+  "en": "Finds the world seed.",
+  "de": "Findet den Seed der Welt.",
+  "tr": "Dünyanın seed'ini (tohumunu) bulur."
+ },
+ "Activity Inspector": {
+  "aliases": [
+   "activity inspector",
+   "activity"
+  ],
+  "kw": "light data dug areas activity base licht gegraben aktivitaet isik kazilmis",
+  "en": "Finds dug-out areas from the server's light data.",
+  "de": "Findet ausgegrabene Bereiche anhand der Lichtdaten des Servers.",
+  "tr": "Sunucunun ışık verilerinden kazılmış alanları bulur."
+ },
+ "Prime Chunk Finder": {
+  "aliases": [
+   "prime chunk finder",
+   "prime chunk"
+  ],
+  "kw": "light changes below y 0 deepslate base licht unter y isik degisimi",
+  "en": "Finds unexplained light changes below Y 0.",
+  "de": "Findet unerklärliche Lichtänderungen unterhalb von Y 0.",
+  "tr": "Y 0'ın altındaki açıklanamayan ışık değişimlerini bulur."
+ },
+ "Player Bypass": {
+  "aliases": [
+   "player bypass",
+   "bypass"
+  ],
+  "kw": "anti xray built dug areas bypass gebaut gegraben insa kazilmis",
+  "en": "Finds built and dug areas through anti-xray.",
+  "de": "Findet gebaute und gegrabene Bereiche trotz Anti-Xray.",
+  "tr": "Anti-xray'e rağmen inşa edilmiş ve kazılmış alanları bulur."
+ },
+ "Netherite Finder": {
+  "aliases": [
+   "netherite finder",
+   "ancient debris",
+   "antiker schutt"
+  ],
+  "kw": "netherite ancient debris nether ore schutt erz netherit kalinti",
+  "en": "Finds the sections that hide ancient debris.",
+  "de": "Findet die Abschnitte, in denen antiker Schutt versteckt ist.",
+  "tr": "Antik kalıntıların saklandığı bölümleri bulur."
+ },
+ "Quantum": {
+  "aliases": [
+   "quantum"
+  ],
+  "kw": "chunks resent hidden blocks compare versteckte bloecke gizli bloklar",
+  "en": "Compares re-sent chunks to reveal hidden blocks.",
+  "de": "Vergleicht neu gesendete Chunks, um versteckte Blöcke aufzudecken.",
+  "tr": "Gizli blokları ortaya çıkarmak için yeniden gönderilen chunk'ları karşılaştırır."
+ },
+ "Amethyst Bypass": {
+  "aliases": [
+   "amethyst bypass",
+   "amethyst",
+   "ametist"
+  ],
+  "kw": "amethyst geode anti xray hidden amethyst geode versteckt ametist gizli",
+  "en": "Reveals amethyst geodes hidden by anti-xray.",
+  "de": "Deckt Amethyst-Geoden auf, die Anti-Xray versteckt.",
+  "tr": "Anti-xray'in gizlediği ametist jeotlarını ortaya çıkarır."
+ },
+ "Block Entity Debug": {
+  "aliases": [
+   "block entity debug",
+   "block entities"
+  ],
+  "kw": "hidden chests spawners block entities versteckte kisten gizli sandik",
+  "en": "Shows hidden chests, spawners and other block entities.",
+  "de": "Zeigt versteckte Truhen, Spawner und andere Block-Entities.",
+  "tr": "Gizli sandıkları, spawner'ları ve diğer blok varlıklarını gösterir."
+ },
+ "Fullbright": {
+  "aliases": [
+   "fullbright",
+   "full bright",
+   "helligkeit",
+   "parlaklık"
+  ],
+  "kw": "bright dark night vision see hell dunkel sehen parlak karanlik",
+  "en": "Full brightness everywhere, even in caves and at night.",
+  "de": "Volle Helligkeit überall – auch in Höhlen und nachts.",
+  "tr": "Her yerde tam parlaklık – mağaralarda ve geceleri bile."
+ },
+ "Clear Liquids": {
+  "aliases": [
+   "clear liquids",
+   "clear water",
+   "klares wasser",
+   "berrak su"
+  ],
+  "kw": "water lava clear underwater see wasser lava klar sicht su lav",
+  "en": "Gives you a clear view in water and lava.",
+  "de": "Klare Sicht in Wasser und Lava.",
+  "tr": "Su ve lav içinde net görüş sağlar."
+ },
+ "ESP": {
+  "aliases": [
+   "esp",
+   "player esp",
+   "spieler esp"
+  ],
+  "kw": "esp players mobs through walls see spieler durch waende oyuncu duvar arkasi",
+  "en": "Shows players and mobs through walls.",
+  "de": "Zeigt Spieler und Mobs durch Wände.",
+  "tr": "Oyuncuları ve yaratıkları duvarların arkasından gösterir."
+ },
+ "BlockESP": {
+  "aliases": [
+   "block esp",
+   "blockesp"
+  ],
+  "kw": "blocks outline through walls find bloecke umrandung blok bulma",
+  "en": "Outlines the blocks you choose, even through walls.",
+  "de": "Umrandet die Blöcke, die du auswählst – auch durch Wände.",
+  "tr": "Seçtiğin blokları duvarların arkasından bile çerçeveler."
+ },
+ "StorageESP": {
+  "aliases": [
+   "storage esp",
+   "storageesp",
+   "chest esp",
+   "truhen esp"
+  ],
+  "kw": "chests barrels shulkers storage kisten faesser sandik varil depo",
+  "en": "Outlines chests, barrels, shulker boxes and more.",
+  "de": "Umrandet Truhen, Fässer, Shulker-Kisten und mehr.",
+  "tr": "Sandıkları, varilleri, shulker kutularını ve fazlasını çerçeveler."
+ },
+ "BlockNotifier": {
+  "aliases": [
+   "block notifier"
+  ],
+  "kw": "notify blocks appear alert benachrichtigen bloecke bildirim blok",
+  "en": "Notifies you when the blocks you chose show up.",
+  "de": "Benachrichtigt dich, wenn die gewählten Blöcke auftauchen.",
+  "tr": "Seçtiğin bloklar ortaya çıktığında seni bilgilendirir."
+ },
+ "SpawnerNotifier": {
+  "aliases": [
+   "spawner notifier"
+  ],
+  "kw": "spawner notify nearby alert spawner benachrichtigung bildirim",
+  "en": "Notifies you when a spawner loads nearby.",
+  "de": "Benachrichtigt dich, wenn in der Nähe ein Spawner geladen wird.",
+  "tr": "Yakında bir spawner yüklendiğinde seni bilgilendirir."
+ },
+ "Weather Notifier": {
+  "aliases": [
+   "weather notifier",
+   "wetter",
+   "hava durumu"
+  ],
+  "kw": "weather rain thunder warn wetter regen gewitter hava yagmur firtina",
+  "en": "Warns you before the weather changes.",
+  "de": "Warnt dich, bevor sich das Wetter ändert.",
+  "tr": "Hava değişmeden önce seni uyarır."
+ },
+ "Trader ESP": {
+  "aliases": [
+   "trader esp",
+   "wandering trader",
+   "händler",
+   "tüccar"
+  ],
+  "kw": "wandering trader llamas haendler lamas gezgin tuccar lama",
+  "en": "Marks wandering traders and their llamas.",
+  "de": "Markiert fahrende Händler und ihre Lamas.",
+  "tr": "Gezgin tüccarları ve lamalarını işaretler."
+ },
+ "Villager ESP": {
+  "aliases": [
+   "villager esp",
+   "dorfbewohner",
+   "köylü"
+  ],
+  "kw": "villagers village dorfbewohner dorf koylu koy",
+  "en": "Marks villagers.",
+  "de": "Markiert Dorfbewohner.",
+  "tr": "Köylüleri işaretler."
+ },
+ "Pillager ESP": {
+  "aliases": [
+   "pillager esp",
+   "plünderer",
+   "yağmacı"
+  ],
+  "kw": "pillagers patrols raid pluenderer patrouille yagmaci devriye",
+  "en": "Marks pillagers and their patrols.",
+  "de": "Markiert Plünderer und ihre Patrouillen.",
+  "tr": "Yağmacıları ve devriyelerini işaretler."
+ },
+ "Collectible ESP": {
+  "aliases": [
+   "collectible esp",
+   "item frame esp",
+   "rahmen",
+   "eşya çerçevesi"
+  ],
+  "kw": "item frames maps collectibles rahmen sammel cerceve",
+  "en": "Marks item frames, optionally only filled ones.",
+  "de": "Markiert Rahmen, auf Wunsch nur gefüllte.",
+  "tr": "Eşya çerçevelerini işaretler, istersen sadece dolu olanları."
+ },
+ "Vine ESP": {
+  "aliases": [
+   "vine esp",
+   "ranken",
+   "sarmaşık"
+  ],
+  "kw": "vines long player activity ranken aktivitaet sarmasik aktivite",
+  "en": "Shows long vines – a sign of player activity.",
+  "de": "Zeigt lange Ranken – ein Zeichen für Spieleraktivität.",
+  "tr": "Uzun sarmaşıkları gösterir – oyuncu aktivitesinin işareti."
+ },
+ "Kelp ESP": {
+  "aliases": [
+   "kelp esp",
+   "seetang",
+   "yosun"
+  ],
+  "kw": "kelp grown chunks old seetang yosun",
+  "en": "Marks chunks with fully grown kelp.",
+  "de": "Markiert Chunks mit ausgewachsenem Seetang.",
+  "tr": "Tamamen büyümüş deniz yosunu olan chunk'ları işaretler."
+ },
+ "Name tags": {
+  "aliases": [
+   "name tags",
+   "nametags",
+   "namensschilder",
+   "isim etiketleri"
+  ],
+  "kw": "name tags players items health namen spieler isim etiket",
+  "en": "Clear name tags for players and dropped items.",
+  "de": "Gut lesbare Namensschilder für Spieler und gedroppte Items.",
+  "tr": "Oyuncular ve yere düşen eşyalar için okunaklı isim etiketleri."
+ },
+ "Waypoints": {
+  "aliases": [
+   "waypoints",
+   "waypoint",
+   "wegpunkte",
+   "yol noktası"
+  ],
+  "kw": "waypoint mark location home base wegpunkt ort yol noktasi konum",
+  "en": "Set waypoints and see them in the world.",
+  "de": "Setze Wegpunkte und sieh sie in der Welt.",
+  "tr": "Yol noktaları koy ve onları dünyada gör."
+ },
+ "Xray": {
+  "aliases": [
+   "xray",
+   "x-ray",
+   "x ray"
+  ],
+  "kw": "xray ores diamonds see through erze diamanten maden elmas",
+  "en": "Lets you see ores through blocks.",
+  "de": "Lässt dich Erze durch Blöcke sehen.",
+  "tr": "Madenleri blokların arkasından görmeni sağlar."
+ },
+ "HudInfo": {
+  "aliases": [
+   "hud info",
+   "hudinfo",
+   "hud"
+  ],
+  "kw": "fps ping coordinates hud info koordinaten koordinat",
+  "en": "Shows FPS, ping, coordinates and more on your screen.",
+  "de": "Zeigt FPS, Ping, Koordinaten und mehr auf dem Bildschirm.",
+  "tr": "FPS, ping, koordinatlar ve daha fazlasını ekranda gösterir."
+ },
+ "Adminlist": {
+  "aliases": [
+   "adminlist",
+   "admin list",
+   "staff list",
+   "teamliste",
+   "yetkili listesi"
+  ],
+  "kw": "staff admins online moderators team admins yetkili cevrimici",
+  "en": "Shows which staff members are online.",
+  "de": "Zeigt, welche Teammitglieder online sind.",
+  "tr": "Hangi yetkililerin çevrimiçi olduğunu gösterir."
+ },
+ "PotionHUD": {
+  "aliases": [
+   "potion hud",
+   "potionhud",
+   "effekte",
+   "iksir"
+  ],
+  "kw": "potion effects timer traenke effekte iksir efekt",
+  "en": "Shows your active potion effects as cards.",
+  "de": "Zeigt deine aktiven Trankeffekte als Karten.",
+  "tr": "Aktif iksir efektlerini kartlar halinde gösterir."
+ },
+ "Hotkeys": {
+  "aliases": [
+   "hotkeys",
+   "hotkey list",
+   "tasten",
+   "kısayollar"
+  ],
+  "kw": "keys binds list tasten belegung tuslar kisayol",
+  "en": "Lists all your bound keys on screen.",
+  "de": "Listet alle deine belegten Tasten auf dem Bildschirm.",
+  "tr": "Atanmış tüm tuşlarını ekranda listeler."
+ },
+ "Radar": {
+  "aliases": [
+   "radar"
+  ],
+  "kw": "radar players mobs nearby compass spieler naehe kompass yakin pusula",
+  "en": "A compass radar with players and mobs nearby.",
+  "de": "Ein Kompass-Radar mit Spielern und Mobs in der Nähe.",
+  "tr": "Yakındaki oyuncuları ve yaratıkları gösteren pusula radarı."
+ },
+ "TimeChanger": {
+  "aliases": [
+   "time changer",
+   "timechanger",
+   "uhrzeit",
+   "zaman"
+  ],
+  "kw": "time day night tageszeit tag nacht zaman gunduz gece",
+  "en": "Sets your own time of day (only on your screen).",
+  "de": "Stellt deine eigene Tageszeit ein (nur auf deinem Bildschirm).",
+  "tr": "Kendi gün saatini ayarlar (sadece senin ekranında)."
+ },
+ "Sky VFX": {
+  "aliases": [
+   "sky vfx",
+   "sky",
+   "himmel",
+   "gökyüzü"
+  ],
+  "kw": "sky animated stars himmel sterne gokyuzu yildiz",
+  "en": "Replaces the sky with an animated Nova sky.",
+  "de": "Ersetzt den Himmel durch einen animierten Nova-Himmel.",
+  "tr": "Gökyüzünü animasyonlu bir Nova gökyüzüyle değiştirir."
+ },
+ "Crosshair": {
+  "aliases": [
+   "crosshair",
+   "fadenkreuz",
+   "nişangâh",
+   "nisangah"
+  ],
+  "kw": "crosshair aim design fadenkreuz nisangah",
+  "en": "Design your own crosshair.",
+  "de": "Gestalte dein eigenes Fadenkreuz.",
+  "tr": "Kendi nişangâhını tasarla."
+ },
+ "Glowing Outlines": {
+  "aliases": [
+   "glowing outlines",
+   "glow",
+   "leuchten",
+   "parlama"
+  ],
+  "kw": "glow outline hand items leuchten umriss parlama",
+  "en": "A glowing outline around the items in your hands.",
+  "de": "Ein leuchtender Umriss um die Items in deinen Händen.",
+  "tr": "Elindeki eşyaların etrafında parlayan bir çerçeve."
+ },
+ "Pearl Trajectory": {
+  "aliases": [
+   "pearl trajectory",
+   "trajectory",
+   "flugbahn",
+   "yörünge"
+  ],
+  "kw": "pearl landing trajectory perle flugbahn inci yorunge",
+  "en": "Shows where your ender pearl will land.",
+  "de": "Zeigt, wo deine Enderperle landen wird.",
+  "tr": "Ender incinin nereye düşeceğini gösterir."
+ },
+ "Damage Numbers": {
+  "aliases": [
+   "damage numbers",
+   "schadenszahlen",
+   "hasar sayıları"
+  ],
+  "kw": "damage numbers hit schaden zahlen hasar sayi",
+  "en": "Damage numbers pop out of the targets you hit.",
+  "de": "Schadenszahlen springen aus den Zielen, die du triffst.",
+  "tr": "Vurduğun hedeflerden hasar sayıları fırlar."
+ },
+ "Kill Effects": {
+  "aliases": [
+   "kill effects",
+   "kill effect"
+  ],
+  "kw": "kill effect death animation toetung effekt olum efekti",
+  "en": "Plays an effect where your target dies.",
+  "de": "Zeigt einen Effekt dort, wo dein Ziel stirbt.",
+  "tr": "Hedefinin öldüğü yerde bir efekt oynatır."
+ },
+ "Fireflies": {
+  "aliases": [
+   "fireflies",
+   "glühwürmchen",
+   "ateş böcekleri"
+  ],
+  "kw": "fireflies particles glow ambience gluehwuermchen ates bocegi",
+  "en": "Glowing fireflies circle around you.",
+  "de": "Leuchtende Glühwürmchen schwirren um dich herum.",
+  "tr": "Parlayan ateş böcekleri etrafında uçuşur."
+ },
+ "Jump Circles": {
+  "aliases": [
+   "jump circles",
+   "sprungkreise"
+  ],
+  "kw": "jump landing circle ring nova sprung landen kreis ring ziplama inis halka",
+  "en": "A clean Nova circle spreads at your feet when you jump and land.",
+  "de": "Beim Springen und Landen breitet sich ein schlichter Nova-Kreis unter deinen Füßen aus.",
+  "tr": "Zıpladığında ve yere indiğinde ayaklarının altında sade bir Nova halkası yayılır."
+ },
+ "Item Physics": {
+  "aliases": [
+   "item physics",
+   "physik",
+   "fizik"
+  ],
+  "kw": "dropped items flat physics items liegen flach fizik esya",
+  "en": "Dropped items lie flat on the ground instead of floating and spinning.",
+  "de": "Gedroppte Items liegen flach auf dem Boden, statt zu schweben und sich zu drehen.",
+  "tr": "Yere düşen eşyalar havada dönmek yerine yerde düz yatar."
+ },
+ "Nova Cape": {
+  "aliases": [
+   "nova cape",
+   "cape",
+   "umhang",
+   "pelerin"
+  ],
+  "kw": "cape animated umhang pelerin",
+  "en": "An animated Nova cape, only on your screen.",
+  "de": "Ein animierter Nova-Umhang – nur auf deinem Bildschirm.",
+  "tr": "Animasyonlu bir Nova pelerini – sadece senin ekranında."
+ },
+ "Swing Speed": {
+  "aliases": [
+   "swing speed",
+   "schwunggeschwindigkeit"
+  ],
+  "kw": "swing animation speed schlag animation sallama hiz",
+  "en": "Changes the speed of your swing animation.",
+  "de": "Ändert die Geschwindigkeit deiner Schlaganimation.",
+  "tr": "Sallama animasyonunun hızını değiştirir."
+ },
+ "VR Menu": {
+  "aliases": [
+   "vr menu",
+   "vr"
+  ],
+  "kw": "menu glass window 3d menue glas fenster menu cam",
+  "en": "Menus float as glass windows in front of the world.",
+  "de": "Menüs schweben als Glasfenster vor der Welt.",
+  "tr": "Menüler dünyanın önünde cam pencereler gibi süzülür."
+ },
+ "Motion Blur": {
+  "aliases": [
+   "motion blur",
+   "bewegungsunschärfe",
+   "hareket bulanıklığı"
+  ],
+  "kw": "motion blur smooth turn unschaerfe bulaniklik",
+  "en": "Smooth motion blur when you turn.",
+  "de": "Weiche Bewegungsunschärfe beim Drehen.",
+  "tr": "Dönerken yumuşak hareket bulanıklığı."
+ },
+ "Vivid": {
+  "aliases": [
+   "vivid",
+   "farben",
+   "renkler"
+  ],
+  "kw": "colors saturation crisp farben kraeftig renk canli",
+  "en": "Richer, livelier colors and a crisper world.",
+  "de": "Kräftigere, lebendigere Farben und eine schärfere Welt.",
+  "tr": "Daha zengin, canlı renkler ve daha net bir dünya."
+ },
+ "Block Overlay": {
+  "aliases": [
+   "block overlay",
+   "block outline",
+   "blockrahmen"
+  ],
+  "kw": "block outline look selection umriss blick cerceve",
+  "en": "A clean colored outline on the block you are looking at.",
+  "de": "Ein sauberer farbiger Rahmen um den Block, auf den du schaust.",
+  "tr": "Baktığın bloğun etrafında temiz, renkli bir çerçeve."
+ },
+ "Low Health Warning": {
+  "aliases": [
+   "low health warning",
+   "low health",
+   "leben warnung",
+   "düşük can"
+  ],
+  "kw": "health low warning red hearts leben warnung rot can uyari kirmizi",
+  "en": "The screen edges pulse red when your health is low.",
+  "de": "Die Bildschirmränder pulsieren rot, wenn dein Leben niedrig ist.",
+  "tr": "Canın düşükken ekran kenarları kırmızı yanıp söner."
+ },
+ "Target HUD": {
+  "aliases": [
+   "target hud",
+   "ziel hud",
+   "hedef"
+  ],
+  "kw": "target health armor enemy ziel leben ruestung hedef can zirh",
+  "en": "Shows health and gear of your target under the crosshair.",
+  "de": "Zeigt Leben und Ausrüstung deines Ziels unter dem Fadenkreuz.",
+  "tr": "Nişangâhın altındaki hedefinin canını ve ekipmanını gösterir."
+ },
+ "Zoom": {
+  "aliases": [
+   "zoom",
+   "zoomen",
+   "yakınlaştırma"
+  ],
+  "kw": "zoom spyglass optifine heranzoomen yakinlastirma",
+  "en": "Zooms in while you hold the key.",
+  "de": "Zoomt heran, solange du die Taste hältst.",
+  "tr": "Tuşu basılı tuttuğun sürece yakınlaştırır."
+ },
+ "HandView": {
+  "aliases": [
+   "hand view",
+   "handview",
+   "hände",
+   "eller"
+  ],
+  "kw": "hands first person position hand view haende position el gorunumu",
+  "en": "Moves and resizes your hands in first person.",
+  "de": "Verschiebt und skaliert deine Hände in der Ego-Sicht.",
+  "tr": "Birinci şahıs görünümünde ellerini taşır ve boyutlandırır."
+ },
+ "ArmourView": {
+  "aliases": [
+   "armour view",
+   "armor view",
+   "rüstung",
+   "zırh"
+  ],
+  "kw": "armor durability hotbar ruestung haltbarkeit zirh dayaniklilik",
+  "en": "Shows your armor and held items next to the hotbar.",
+  "de": "Zeigt deine Rüstung und gehaltenen Items neben der Hotbar.",
+  "tr": "Zırhını ve elindeki eşyaları hızlı çubuğun yanında gösterir."
+ },
+ "Custom Font": {
+  "aliases": [
+   "custom font",
+   "font",
+   "schrift",
+   "yazı tipi"
+  ],
+  "kw": "font text chat hud schrift yazi tipi",
+  "en": "Uses a clean Nova font for chat and HUD.",
+  "de": "Nutzt eine saubere Nova-Schrift für Chat und HUD.",
+  "tr": "Sohbet ve HUD için temiz bir Nova yazı tipi kullanır."
+ },
+ "Knives": {
+  "aliases": [
+   "knives",
+   "knife",
+   "messer",
+   "bıçak"
+  ],
+  "kw": "knife cs inspect swords messer bicak kilic",
+  "en": "Swords look like CS-style knives with an inspect animation.",
+  "de": "Schwerter sehen aus wie Messer im CS-Stil – mit Inspect-Animation.",
+  "tr": "Kılıçlar, inceleme animasyonlu CS tarzı bıçaklar gibi görünür."
+ },
+ "Hyper Tools": {
+  "aliases": [
+   "hyper tools",
+   "hypertools",
+   "tool skins",
+   "laserschwert",
+   "lightsaber",
+   "laser sword",
+   "lazer kılıç",
+   "energy tools",
+   "energie werkzeuge"
+  ],
+  "kw": "sword lightsaber laser energy rarity color moves combo inspect key trail schwert laserschwert schlag moves inspect taste farbe seltenheit kilic lazer vurus inceleme tus renk nadirlik",
+  "en": "Every sword becomes a laser sword: the blade color shows the rarity (wood white up to netherite red) and it ignites when you draw it. Every hit is a different move with a glowing trail, and your own inspect key plays three animations: twirl, toss and catch, and a close look with the blade turning off and on. Your hotbar keeps the normal icons.",
+  "de": "Jedes Schwert wird zum Laserschwert: Die Klingenfarbe zeigt die Seltenheit (Holz weiß bis Netherite rot), und beim Ziehen zündet die Klinge. Jeder Schlag ist ein anderer Move mit leuchtender Spur, und eine eigene Inspect-Taste spielt drei Animationen: Wirbeln, Hochwerfen und Fangen, Anschauen mit Aus- und Einschalten. Die Hotbar zeigt weiter die normalen Symbole.",
+  "tr": "Her kılıç lazer kılıca dönüşür: bıçağın rengi nadirliği gösterir (tahta beyaz, netherite kırmızı) ve çektiğinde yanar. Her vuruş parlayan izli farklı bir harekettir; kendi inceleme tuşun üç animasyon oynatır: döndürme, havaya atıp yakalama ve bıçağı kapatıp açarak yakından bakma. Hızlı çubuk normal simgeleri gösterir."
+ },
+ "Nova+": {
+  "aliases": [
+   "nova+",
+   "nova plus",
+   "watermark"
+  ],
+  "kw": "watermark info bar time fps ping wasserzeichen filigran",
+  "en": "The Nova+ watermark and a clean info bar with time, FPS and ping.",
+  "de": "Das Nova+-Wasserzeichen und eine saubere Infoleiste mit Uhrzeit, FPS und Ping.",
+  "tr": "Nova+ filigranı ve saat, FPS ve ping gösteren temiz bir bilgi çubuğu."
+ },
+ "Schematic Builder": {
+  "aliases": [
+   "schematic builder",
+   "schematic",
+   "litematic",
+   "builder",
+   "baumeister",
+   "şema"
+  ],
+  "kw": "build schematic litematic farm automatic bauen bot insa otomatik sema",
+  "en": "Builds litematica schematics for you – even huge farms – and fetches materials from chests.",
+  "de": "Baut Litematica-Schematics für dich – sogar riesige Farmen – und holt das Material aus Truhen.",
+  "tr": "Litematica şemalarını senin için inşa eder – dev çiftlikleri bile – ve malzemeyi sandıklardan alır."
+ },
+ "Nova Social": {
+  "aliases": [
+   "nova social",
+   "social",
+   "freunde",
+   "arkadaşlar"
+  ],
+  "kw": "friends messages party chat freunde nachrichten arkadas mesaj parti",
+  "en": "Friends, messages and parties with everyone who uses Nova.",
+  "de": "Freunde, Nachrichten und Partys mit allen, die Nova nutzen.",
+  "tr": "Nova kullanan herkesle arkadaşlık, mesajlar ve partiler."
+ }
+}

@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "nova_client:font/media.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["􏖠"]
+    }
+  ]
+}

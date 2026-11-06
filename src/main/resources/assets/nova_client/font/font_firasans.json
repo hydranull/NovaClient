@@ -1,0 +1,15 @@
+{
+  "providers": [
+    {
+      "type": "ttf",
+      "file": "nova_client:firasans-medium.ttf",
+      "size": 9.8,
+      "oversample": 3.0,
+      "shift": [0.0, 0.5]
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:default"
+    }
+  ]
+}

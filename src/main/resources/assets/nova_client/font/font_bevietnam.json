@@ -1,0 +1,15 @@
+{
+  "providers": [
+    {
+      "type": "ttf",
+      "file": "nova_client:bevietnampro-medium.ttf",
+      "size": 9.1,
+      "oversample": 3.0,
+      "shift": [0.0, 0.5]
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:default"
+    }
+  ]
+}

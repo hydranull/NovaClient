@@ -1,0 +1,151 @@
+// Gemeinsames Build-Skript fuer alle Minecraft-Versionen (Stonecutter fuehrt es je Ordner in versions/ aus).
+// Versionsabhaengige Werte stehen in versions/<version>/gradle.properties, gemeinsame in gradle.properties.
+
+def mc = stonecutter.current.version
+// Bis 1.21.11 ist Minecraft verschleiert: Loom muss beim Bauen umbenennen ("remap"), ab 26.1 nicht mehr
+def remap = stonecutter.eval(mc, "<26.1")
+// Offizieller Build (bekommt Auto-Updates vom Nova-Server): nur, wer nova_official=true setzt, z.B. in der eigenen
+// ~/.gradle/gradle.properties. Selbst gebaute Versionen aus dem Quellcode aktualisieren sich nie von selbst.
+def official = (project.findProperty("nova_official") ?: "false").toString() == "true"
+
+apply plugin: remap ? 'net.fabricmc.fabric-loom-remap' : 'net.fabricmc.fabric-loom'
+apply plugin: 'maven-publish'
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    // z.B. NovaClient-26.3-0.100.jar
+    archivesName = "${project.archives_base_name}-${mc}"
+}
+
+loom {
+    splitEnvironmentSourceSets()
+
+    mods {
+        "nova_client" {
+            sourceSet sourceSets.main
+            sourceSet sourceSets.client
+        }
+    }
+
+    // IntelliJ-Startkonfigurationen je Version, z.B. "Minecraft Client (:26.3)" und "Minecraft Client (:1.21.11)".
+    // Jede Version hat ihren eigenen Spielordner versions/<version>/run.
+    runConfigs.configureEach {
+        ideConfigGenerated true
+    }
+}
+
+fabricApi {
+    configureDataGeneration {
+        client = true
+    }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    if (remap) {
+        mappings loom.officialMojangMappings()
+        modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+        modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+    } else {
+        implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+        implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+    }
+}
+
+def javaVersion = project.java_version as int
+
+processResources {
+    inputs.property "version", project.version
+    inputs.property "release_stage", project.release_stage
+    inputs.property "official", official
+    inputs.property "minecraft_version", project.minecraft_version
+    inputs.property "loader_version", project.loader_version
+    inputs.property "java_version", javaVersion
+    filteringCharset "UTF-8"
+
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version,
+                "stage": project.release_stage,
+                "official": official,
+                "minecraft_version": project.minecraft_version,
+                "loader_version": project.loader_version
+    }
+}
+
+// Shader stehen im Format von 26.3 (Vulkan-tauglich: #include, layout(location = N), gl_VertexIndex). 1.21.11 versteht
+// nur das alte GLSL von Minecraft (#moj_import, Positionen ueber die Namen): beim Bauen fuer 1.21.11 zurueckwandeln. Die
+// Durchgaenge der reihenfolge-unabhaengigen Transparenz (oit.glsl) gibt es erst ab 26.3 - dort stehen sie in #ifdef.
+if (remap) {
+    processResources {
+        filesMatching(["assets/*/shaders/**/*.vsh", "assets/*/shaders/**/*.fsh", "assets/*/shaders/**/*.glsl"]) {
+            filter { String line ->
+                if (line.startsWith('#extension GL_ARB_separate_shader_objects') || line.contains('#include <minecraft:oit.glsl>')) {
+                    return null
+                }
+                return line.replaceAll(/^#include\s+</, '#moj_import <')
+                        .replaceAll(/layout\(location = \d+\) /, '')
+                        .replaceAll(/\bgl_VertexIndex\b/, 'gl_VertexID')
+            }
+        }
+    }
+}
+
+// Mixin-Konfigurationen liegen im client-Sourceset: Java-Stufe je Version eintragen
+tasks.named('processClientResources') {
+    inputs.property "java_version", javaVersion
+    filesMatching("*.mixins.json") {
+        filter { line -> line.replace('"JAVA_25"', "\"JAVA_${javaVersion}\"") }
+    }
+}
+processResources {
+    filesMatching("*.mixins.json") {
+        filter { line -> line.replace('"JAVA_25"', "\"JAVA_${javaVersion}\"") }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.encoding = "UTF-8"
+    it.options.release.set(javaVersion)
+    it.options.compilerArgs += ["-Xmaxerrs", "10000"]
+}
+
+java {
+    if (JavaVersion.current() < JavaVersion.toVersion(javaVersion)) {
+        toolchain.languageVersion = JavaLanguageVersion.of(javaVersion)
+    }
+    withSourcesJar()
+}
+
+jar {
+    from(rootProject.file("LICENSE")) {
+        rename { "${it}_${project.archives_base_name}" }
+    }
+}
+
+// Fertige .jar jeder Version im Haupt-Ordner build/libs ablegen, schlicht als NovaClient-<mc>.jar (z.B.
+// NovaClient-26.3.jar). Bis 1.21.11 ist das die von Loom auf die Laufzeit-Namen umgeschriebene .jar (remapJar).
+tasks.register('collectJars', Copy) {
+    group = 'build'
+    description = 'Kopiert die fertige .jar als NovaClient-<mc>.jar nach build/libs im Projektordner.'
+    def finished = remap ? tasks.named('remapJar') : tasks.named('jar')
+    dependsOn finished
+    from(finished)
+    rename { "${project.archives_base_name}-${mc}.jar" }
+    into rootProject.layout.buildDirectory.dir('libs')
+}
+
+tasks.named('build') {
+    finalizedBy tasks.named('collectJars')
+}
+
+// configure the maven publication
+publishing {
+    publications {
+        create("mavenJava", MavenPublication) {
+            artifactId = base.archivesName.get()
+            from components.java
+        }
+    }
+}

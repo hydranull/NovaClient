@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "nova_client",
+  "version": "${version}",
+  "name": "Nova Client",
+  "description": "Free and open-source utility client with its own clean GUI, profiles, macros and many modules.",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0-only",
+  "icon": "assets/nova_client/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "nova.nova_client.client.Nova_clientDataGenerator"
+    ],
+    "client": [
+      "nova.nova_client.client.Nova_clientClient"
+    ],
+    "main": [
+      "nova.nova_client.Nova_client"
+    ]
+  },
+  "mixins": [
+    "nova_client.mixins.json",
+    {
+      "config": "nova_client.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "custom": {
+    "nova_client:minecraft": "${minecraft_version}",
+    "nova_client:stage": "${stage}",
+    "nova_client:official": "${official}"
+  }
+}

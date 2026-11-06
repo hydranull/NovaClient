@@ -1,0 +1,15 @@
+{
+  "providers": [
+    {
+      "type": "ttf",
+      "file": "nova_client:dmsans.ttf",
+      "size": 9.6,
+      "oversample": 3.0,
+      "shift": [0.0, 0.5]
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:default"
+    }
+  ]
+}
